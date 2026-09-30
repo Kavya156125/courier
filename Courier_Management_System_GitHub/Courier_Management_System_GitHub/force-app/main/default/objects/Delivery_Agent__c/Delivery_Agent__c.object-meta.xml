@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>Delivery Agent</label>
+  <pluralLabel>Delivery Agents</pluralLabel>
+  <nameField><label>Agent Name</label><type>Text</type></nameField>
+  <deploymentStatus>Deployed</deploymentStatus>
+  <sharingModel>ReadWrite</sharingModel>
+    <fields><fullName>Email__c</fullName><label>Email</label><required>true</required><type>Email</type></fields>
+    <fields><fullName>Phone__c</fullName><label>Phone</label><required>true</required><type>Phone</type></fields>
+    <fields><fullName>Branch__c</fullName><deleteConstraint>SetNull</deleteConstraint><label>Branch</label><referenceTo>Branch__c</referenceTo><relationshipLabel>Branch</relationshipLabel><relationshipName>Branch</relationshipName><type>Lookup</type></fields>
+    <fields><fullName>Status__c</fullName><label>Status</label><required>true</required><type>Picklist</type><valueSet><valueSetDefinition><sorted>false</sorted><value><fullName>Active</fullName><default>false</default></value><value><fullName>Inactive</fullName><default>false</default></value><value><fullName>On Leave</fullName><default>false</default></value></valueSetDefinition></valueSet></fields>
+    <fields><fullName>Joining_Date__c</fullName><label>Joining Date</label><required>false</required><type>Date</type></fields>
+</CustomObject>

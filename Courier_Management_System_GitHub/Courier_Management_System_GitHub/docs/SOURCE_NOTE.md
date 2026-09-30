@@ -1,0 +1,1 @@
+The repository was prepared from the supplied Courier Management System (CMS) project PDF. The PDF specifies Salesforce custom objects, fields, relationships, validation rules, a shipment-status flow, roles/profiles, reports and dashboard requirements. Verify generated metadata in a Salesforce Developer Org before deployment.

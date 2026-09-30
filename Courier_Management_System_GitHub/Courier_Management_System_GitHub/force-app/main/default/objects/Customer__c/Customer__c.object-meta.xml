@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>Customer</label>
+  <pluralLabel>Customers</pluralLabel>
+  <nameField><label>Customer Name</label><type>Text</type></nameField>
+  <deploymentStatus>Deployed</deploymentStatus>
+  <sharingModel>ReadWrite</sharingModel>
+    <fields><fullName>Email__c</fullName><label>Email</label><required>true</required><type>Email</type></fields>
+    <fields><fullName>Phone__c</fullName><label>Phone</label><required>true</required><type>Phone</type></fields>
+    <fields><fullName>Address__c</fullName><label>Address</label><type>TextArea</type></fields>
+    <fields><fullName>Customer_Type__c</fullName><label>Customer Type</label><required>true</required><type>Picklist</type><valueSet><valueSetDefinition><sorted>false</sorted><value><fullName>Regular</fullName><default>false</default></value><value><fullName>Business</fullName><default>false</default></value></valueSetDefinition></valueSet></fields>
+    <fields><fullName>City__c</fullName><label>City</label><length>255</length><required>false</required><type>Text</type></fields>
+    <fields><fullName>State__c</fullName><label>State</label><length>255</length><required>false</required><type>Text</type></fields>
+    <fields><fullName>Pincode__c</fullName><label>Pincode</label><length>255</length><required>false</required><type>Text</type></fields>
+    <fields><fullName>Is_Active__c</fullName><defaultValue>false</defaultValue><label>Is Active</label><type>Checkbox</type></fields>
+</CustomObject>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fullName>Validate_Expected_Date</fullName>
+  <active>true</active>
+  <errorConditionFormula>Expected_Date__c < TODAY()</errorConditionFormula>
+  <errorMessage>Expected delivery date cannot be in the past.</errorMessage>
+</ValidationRule>

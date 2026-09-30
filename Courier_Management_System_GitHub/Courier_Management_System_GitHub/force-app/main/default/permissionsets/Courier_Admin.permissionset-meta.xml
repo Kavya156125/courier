@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>Courier Admin</label>
+  <description>Permission set for the Courier Management System. Review and refine in the target org.</description>
+</PermissionSet>
